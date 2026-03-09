@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  width: 420px; /* wider */
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.app-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Cards */
+.card {
+  background: #1e293b;
+  padding: 18px;
+  border-radius: 16px;
+  margin-bottom: 15px;
+}
+
+/* Water Section */
+.water-card {
+  text-align: center;
+}
+
+.water-count {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.goal-text {
+  font-size: 14px;
+  opacity: 0.7;
+  margin-left: 4px;
+}
+
+/* Progress Bar */
+.progress {
+  height: 8px;
+  background: #334155;
+  border-radius: 10px;
+  margin: 12px 0;
+  overflow: hidden;
+}
+
+#progressFill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #00c6ff, #22d3ee);
+  transition: width 0.3s ease;
+}
+
+/* Streak */
+.streak {
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 12px;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+.primary {
+  background: #00c6ff;
+  color: black;
+}
+
+.primary:hover {
+  transform: translateY(-2px);
+}
+
+.secondary {
+  background: #334155;
+  color: white;
+}
+
+.secondary:hover {
+  background: #475569;
+}
+
+/* Inputs */
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #334155;
+  color: white;
+  font-size: 14px;
+}
+
+.toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

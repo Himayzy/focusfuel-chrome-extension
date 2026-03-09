@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>FocusFuel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="header">
+    <span class="logo">💧</span>
+    <span class="app-name">FocusFuel</span>
+  </div>
+
+  <div class="card water-card">
+    <div class="water-count">
+        <div class="percentage" id="percentText">0%</div>
+      <span id="waterCount">0</span>
+      <span class="goal-text">/ <span id="waterGoal">8</span> glasses</span>
+    </div>
+
+    <div class="progress">
+      <div id="progressFill"></div>
+    </div>
+
+    <div class="streak">
+      🔥 <span id="streak">0</span> Day Streak
+    </div>
+  </div>
+
+  <button id="drinkBtn" class="btn primary">
+    💧 Drink Water
+  </button>
+
+  <div class="card settings">
+    <label>Water Interval (minutes)</label>
+    <input type="number" id="waterInterval" min="5" max="120">
+
+    <div class="toggle">
+      <span>Strict Mode</span>
+      <input type="checkbox" id="strictMode">
+    </div>
+  </div>
+
+  <button id="saveBtn" class="btn secondary">
+    Save Settings
+  </button>
+
+  <button id="analyticsBtn" class="btn secondary">
+    Weekly Analytics
+  </button>
+
+</div>
+
+<script src="popup.js"></script>
+</body>
+</html>

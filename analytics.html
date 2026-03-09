@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>FocusFuel - Weekly Analytics</title>
+  <link rel="stylesheet" href="analytics.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>📊 Weekly Health Analytics</h1>
+
+    <div class="stats">
+  <div class="stat-card">
+    <div class="stat-number" id="weeklyTotal">0</div>
+    <div class="stat-label">Total Glasses</div>
+  </div>
+
+  <div class="stat-card">
+    <div class="stat-number" id="weeklyAvg">0</div>
+    <div class="stat-label">Daily Average</div>
+  </div>
+
+  <div class="stat-card">
+    <div class="stat-number" id="goalPercent">0%</div>
+    <div class="stat-label">Goal Completion</div>
+  </div>
+</div>
+    <div class="chart-container">
+      <canvas id="chart"></canvas>
+    </div>
+  </div>
+
+  <script src="chart.js"></script>
+  <script src="analytics.js"></script>
+</body>
+</html>

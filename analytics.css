@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.chart-container {
+  background: #1e293b;
+  border-radius: 16px;
+  padding: 30px;
+  height: 400px;   /* FIXED HEIGHT */
+  position: relative;
+}
+
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  gap: 15px;
+}
+
+.stat-card {
+  flex: 1;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.stat-label {
+  font-size: 13px;
+  opacity: 0.7;
+  margin-top: 5px;
+}
